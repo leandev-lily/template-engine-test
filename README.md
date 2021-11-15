@@ -1,10 +1,7 @@
-# POC of docmosis
+# Template engine test
 
-## How to test on docker
+## How to Run
 ```
-docker build -t test -f test.Dockerfile .
-docker run --rm -it -v "$(pwd):/leandev" test bash
-cd /leandev
 javac DocmosisRender.java Helper.java Formatter.java -cp ./docmosis4.6.0.jar
 java -cp ./docmosis4.6.0.jar:./barcode4j.jar:.  DocmosisRender
 
