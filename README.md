@@ -17,7 +17,7 @@ File will be generated in name newDocument.pdf
 ## How to test locally
 (You have to have libreOffice installed to run this locally)
 
-Modify the class SimpleRender to point to the installation path of your libreOffice (check [readme.txt](readme.txt) for detail)
+Modify the class DocmosisRender to point to the installation path of your libreOffice (check [readme.txt](readme.txt) for detail)
 
 Use IDEA to open, add docmosis4.6.0.jar to project lib and click run on SimpleRender
 
